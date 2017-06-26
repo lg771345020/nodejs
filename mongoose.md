@@ -38,13 +38,13 @@ var PersonEntity;   //Person实体
 
 3. 打开本机localhost的test数据库时，我们可以监测是否有异常
 
-```js
-db.on('error', function (err) {
-    console.log('连接数据库失败');
-});
-db.once('open', function () {
-    console.log('连接数据库成功');
+    ```js
+    db.on('error', function (err) {
+        console.log('连接数据库失败');
+    });
+    db.once('open', function () {
+        console.log('连接数据库成功');
 
-    //对数据库进行操作
-});
+        //对数据库进行操作
+    });
 ```
