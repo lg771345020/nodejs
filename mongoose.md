@@ -33,8 +33,8 @@ var PersonEntity;   //Person实体
 
 2. 在项目只能够创建一个数据库连接，如下:
 
-        var mongoose = require('mongoose');    //引用mongoose模块
-        var db = mongoose.createConnection('localhost','test'); //创建一个数据库连接
+    var mongoose = require('mongoose');    //引用mongoose模块
+    var db = mongoose.createConnection('localhost','test'); //创建一个数据库连接
 
 3. 打开本机localhost的test数据库时，我们可以监测是否有异常
 
