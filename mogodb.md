@@ -80,10 +80,10 @@ MongoDB 适合存储：数据结构简单、数据量非常大、高并发读写
     db.user.remove(query, {})
     
 #### 使用 find() 方法查找文档 
-
+   ```
    //查找记录，只显示 name 列
    db.user.find(query, {name: 1})
-
+    ```
 **query 查询操作符**
 
 
