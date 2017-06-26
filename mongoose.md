@@ -31,20 +31,18 @@ var PersonEntity;   //Person实体
 
 1. 首先你必须安装 [MongoDB]() 和 [NodeJS]()
 
-2. 在项目只能够创建一个数据库连接，如下:
+2. 执行如下的代码，测试 mongodb 是否连接成功:
 
-    var mongoose = require('mongoose');    //引用mongoose模块
-    var db = mongoose.createConnection('localhost','test'); //创建一个数据库连接
+    var mongoose = require('mongoose');
 
-3. 打开本机localhost的test数据库时，我们可以监测是否有异常
+    //创建一个数据库连接
+    var db = mongoose.createConnection('localhost','test');
 
-    ```js
     db.on('error', function (err) {
-        console.log('连接数据库失败');
+        console.log('数据库连接失败');
     });
     db.once('open', function () {
-        console.log('连接数据库成功');
+        console.log('数据库连接成功');
 
         //对数据库进行操作
     });
-```

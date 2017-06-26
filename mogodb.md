@@ -84,7 +84,8 @@ MongoDB 适合存储：数据结构简单、数据量非常大、高并发读写
    //查找记录，只显示 name 列
    db.user.find(query, {name: 1})
 
-** query 查询操作符 **
+**query 查询操作符**
+
 
 操作|符号
 --|----
@@ -94,7 +95,8 @@ MongoDB 适合存储：数据结构简单、数据量非常大、高并发读写
 < | {key: {$gt: value}}
 <=| {key: {$gt: value}}
 
-** 使用 _id 查找 **
+
+**使用 _id 查找**
 
     {_id: Object(id)}
 
