@@ -103,8 +103,12 @@ db.user.find(query, {name: 1})
 
 #### 使用 limit() 方法查找文档
 
-   db.user.find().limit(num)   //查找前 num 记录
+```
+db.user.find().limit(num)   //查找前 num 记录
+```
 
 #### 使用 skip() 方法查找文档
 
-   db.user.find().skip(num)   //忽略前 num 记录
+```
+db.user.find().skip(num)   //忽略前 num 记录
+```
