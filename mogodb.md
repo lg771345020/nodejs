@@ -81,7 +81,7 @@ MongoDB 适合存储：数据结构简单、数据量非常大、高并发读写
     
 #### 使用 find() 方法查找文档
 
-```
+```js
 //查找记录，只显示 name 列
 db.user.find(query, {name: 1})
 ```
@@ -103,12 +103,12 @@ db.user.find(query, {name: 1})
 
 #### 使用 limit() 方法查找文档
 
-```
+```js
 db.user.find().limit(num)   //查找前 num 记录
 ```
 
 #### 使用 skip() 方法查找文档
 
-```
+```js
 db.user.find().skip(num)   //忽略前 num 记录
 ```
