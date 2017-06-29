@@ -21,7 +21,7 @@ Normalize.css则尽量保留浏览器的默认样式，该项目依赖于研究�
 ## Normalize.css 的优势：
 
 1.　Normalize.css 保护了有价值的默认值 Reset通过为几乎所有的元素施加默认样式，强行使得元素有相同的视觉效果， 相比之下，Normalize.css保持了许多默认的浏览器样式；这就意味着你不用再为所有公共的排版元素重新设置样式。 当一个元素在不同的浏览器中有不同的默认值时，Normalize.css会力求让这些样式保持一致并尽可能与现代标准相符合。
-      
+
 2. Normalize.css 修复了浏览器的bug 它修复了常见的桌面端和移动端浏览器的bug。这往往超出了Reset所能做到的范畴。 关于这一点，Normalize.css修复的问题包含了HTML5元素的显示设置、预格式化文字的font-size问题、在IE9中SVG的溢出、许多出现在各浏览器和操作系统中的与表单相关的bug。
 
 ## Normalize.css 中文注释
@@ -533,3 +533,7 @@ input:focus{outline: none;}
 /*旧浏览器html新增的标签无法识别块状显示*/
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 ```
+
+## 参考：
+
+1. [伪元素表单控件默认样式重置与自定义大全](http://www.zhangxinxu.com/wordpress/2013/06/%E4%BC%AA%E5%85%83%E7%B4%A0-%E8%A1%A8%E5%8D%95%E6%A0%B7%E5%BC%8F-pseudo-elements-style-form-controls/#input_number)
