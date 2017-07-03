@@ -9,7 +9,12 @@
 ```js
 var bcrypt = require('bcryptjs');
 
-//hash + salt 加密算法
+/**
+ * hash + salt 加密算法
+ * callback
+ * - err 错误
+ * - hash 加密后的数据
+ */
 exports.bhash = function (str, callback) {
   bcrypt.hash(str, 10, callback);
 };
