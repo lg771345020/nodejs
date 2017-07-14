@@ -8,4 +8,4 @@ Axture 卸载后，重新安装 Axture 不能正常启动，出现以下错误�
 
 解决办法：修复 `.Net Framework 4.0` 即可，详细可参考[这篇文章](http://www.paopaoche.net/jiaocheng/56274.html)。
 
-![修复.Net Framework 4.0](./img/axtrue_02.png)
+![修复.Net Framework 4.0](https://github.com/lg771345020/nodejs/blob/master/img/axtrue_01.png)
